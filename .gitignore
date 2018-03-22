@@ -1,0 +1,9 @@
+*.pyc
+*.csv
+*.csv.gz
+*.txt
+*.vec
+.ipynb_checkpoints/
+.DS_Store
+__pycache__
+
