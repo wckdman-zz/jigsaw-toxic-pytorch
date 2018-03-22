@@ -1,7 +1,7 @@
 This is a part of my solution (top-4%) for **Kaggle Jigsaw Toxic Comment Classification Challenge** - https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 
 
-# Stucture
+# Structure
 
 - preprocess.py - creating vocabulary, trimming sentences, creating embedding matrix, converting sentences into sequences
 - utils.py - training and evaluation; preparing submission file
