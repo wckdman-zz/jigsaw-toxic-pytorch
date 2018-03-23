@@ -132,9 +132,9 @@ def main():
         cuda=opt.cuda)
 
     out = {}
-
+    i = 0
     # ========= Preparing CrossVal =========#
-    for i, idx_train, idx_val in enumerate(kf.split(idx)):
+    for idx_train, idx_val in kf.split(idx):
 
         #model = GMP(opt.src_vocab_size, embeds=embeds, dropout=opt.dropout)
         model = GRUCnn(opt.src_vocab_size, embeds=embeds, dropout=opt.dropout)
